@@ -6,44 +6,42 @@ public class singletonPattern {
 	public static void main(String []args) {
 		System.out.println("hello singletonPattern");
 		Singleton single1 = Singleton.getInstance();
-		Singleton single2 = Singleton.getInstance();
-
-		System.out.println("singleton1 =" + single1.getNum());
-		System.out.println("singleton2 =" + single2.getNum());		
-		aa();
-		bb();
-		cc();
-		dd();
 		
-		single1.setNum(13);
+	
+		dog1();
+		dog2();
+		dog3();
+		dog4();
 		
-		System.out.println("singleton1 =" + single1.getNum());
-		System.out.println("singleton2 =" + single2.getNum());		
-		aa();
-		bb();
-		cc();
-		dd();
+		
+		single1.setMaster("akiho");
+		
+		
+		dog1();
+		dog2();
+		dog3();
+		dog4();
 			
 	}
 	
 	
 	
-	public static void aa() {
+	public static void dog1() {
 		Singleton single1 = Singleton.getInstance();
-		System.out.println("aa =" + single1.getNum());
+		System.out.println("dog1 master name = " + single1.getMaster());
 	}
 	
-	public static void bb() {
+	public static void dog2() {
 		Singleton single1 = Singleton.getInstance();
-		System.out.println("bb =" + single1.getNum());
+		System.out.println("dog2 master name = " + single1.getMaster());
 	}
-	public static void cc() {
+	public static void dog3() {
 		Singleton single1 = Singleton.getInstance();
-		System.out.println("cc =" + single1.getNum());
+		System.out.println("dog3 master name = " + single1.getMaster());
 	}
-	public static void dd() {
+	public static void dog4() {
 		Singleton single1 = Singleton.getInstance();
-		System.out.println("dd =" + single1.getNum());
+		System.out.println("dog4 master name = " + single1.getMaster());
 	}
 	
 

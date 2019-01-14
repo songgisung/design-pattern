@@ -1,11 +1,18 @@
 public class Proxy implements MailService{
 
-	MailService mService;
+	private MailService mService;
+	
+	Proxy(MailService real){
+		this.mService = real;
+	}
 	
 	@Override
-	public String runMail() {
-		System.out.println("proxy");
-		mService = new Service();
-		return mService.runMail();	
+	public void runMail1() {
+		System.out.println("mail post : 1 by Proxy");
+	}
+
+	@Override
+	public void runMail2() {
+		this.mService.runMail2();
 	}
 }

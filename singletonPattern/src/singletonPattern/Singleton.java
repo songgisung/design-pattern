@@ -1,11 +1,13 @@
 package singletonPattern;
 
 public class Singleton {
+	
 	private static Singleton singleton;
-	private int num;
+	private String master;
+	
 	private Singleton() {
 		System.out.println("instance insert");
-		num = 0;
+		master = "";
 		
 	}
 	
@@ -17,12 +19,12 @@ public class Singleton {
 			return singleton;
 	}
 	
-	public int getNum() {
-		return num;
+	public String getMaster() {
+		return master;
 	}
 	
-	public void setNum(int num) {
-		this.num = num;
+	public void setMaster(String name) {
+		this.master = name;
 	}
 	
 }
