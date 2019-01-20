@@ -8,7 +8,7 @@
 # Proxy Pattren
 
 ## 다른 객체에 대한 접근을 제어하기 위해 대리자 역할을 하는 객체를 두는 디자인 패턴이다.
-### 他のオブジェクトに対するアクセスを制御するために代理者の役割を果たすオブジェクトを置くデザインパターンだ
+## 他のオブジェクトに対するアクセスを制御するために代理者の役割を果たすオブジェクトを置くデザインパターンだ
 
 # Template Method Pattren
 
@@ -18,9 +18,22 @@
 ## 一緒に使用可能な部分を抽象クラス化し,残りは具現クラスを作成し,修正が有用である。
 
 
+# Factory Pattren
+
+## 객체를 생성하기 위한 인터페이스를 정의하는데, 어떤 클래스의 인스턴스를 만들지는 서브클래스에서 결정한다.
+## 客体を生成するためのインタフェースを定義するが,どのクラスのインスタンスを作るかはサブクラスで決める。
+
+
 
 # Screen shot
 ### singleton
 ![](https://github.com/songgisung/design-pattern/blob/master/pic/singleton.PNG)
 ### Proxy
 ![](https://github.com/songgisung/design-pattern/blob/master/pic/proxy.PNG)
+### template
+![](https://github.com/songgisung/design-pattern/blob/master/pic/template.PNG)
+### Factory
+![](https://github.com/songgisung/design-pattern/blob/master/pic/Factory.PNG)
+
+
+
