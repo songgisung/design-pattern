@@ -33,7 +33,7 @@
 ### template
 ![](https://github.com/songgisung/design-pattern/blob/master/pic/template.PNG)
 ### Factory
-![](https://github.com/songgisung/design-pattern/blob/master/pic/Factory.PNG)
+![](https://github.com/songgisung/design-pattern/blob/master/pic/factory.PNG)
 
 
 
