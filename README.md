@@ -24,6 +24,11 @@
 ### 客体を生成するためのインタフェースを定義するが,どのクラスのインスタンスを作るかはサブクラスで決める。
 
 
+# 5.Strategy Pattren
+
+### 행위를  클래스로 캡슐화해서 동적으로 행위를 자유롭게 바꿀수 있게 해주는 패턴이다. 전략을 쉽게 바꿀수 있도록 해주는 패턴이다.
+### 行為をクラスにカプセル化して動的に行為を自由に変えることができるパターンだ。 戦略を簡単に変えられるようにするパターンだ。
+
 
 # Screen shot
 ### singleton
@@ -34,6 +39,7 @@
 ![](https://github.com/songgisung/design-pattern/blob/master/pic/template.PNG)
 ### Factory
 ![](https://github.com/songgisung/design-pattern/blob/master/pic/factory.PNG)
-
+### stratege
+![](https://github.com/songgisung/design-pattern/blob/master/pic/stratege.PNG)
 
 
